@@ -11,6 +11,11 @@ a img {
     position: absolute;
 }
 
+.container {
+    width: 90%;
+}
+
+/* HEADER.HTML & FOOTER.HTML */
 .navbar {
     margin: 20px;
 }
@@ -72,4 +77,16 @@ a img {
 
 .footer-sub-menu ul > li:first-child {
     color: #000;
+}
+
+/* INDEX.HTML */
+
+.container .row {
+
+}
+
+.container .row .section-img {
+}
+.container .row .section-img img {
+    width: 300px;
 }
