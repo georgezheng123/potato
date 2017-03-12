@@ -1,4 +1,4 @@
-var departments = [ 'ae', 'art', 'business', 'copy', 'features',' humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
+var departments = [ 'ae', 'art', 'business', 'copy', 'features','humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
 
 (function() {
     var row = document.getElementById("horizontal-bar-row");
