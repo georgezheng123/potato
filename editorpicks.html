@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <style>
-            table, th, td {
-            border: 1px solid black;
-            }
-        </style>
+
+        <title>Spectator Recruitments</title>
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+        <!--loads the header and fotter-->
+        <script src="js/jquery.min.js"></script>
+        <script>
+        $(function(){
+          $("#navbar").load("navbar.html");
+          $("#footer").load("footer.html");
+        });
+        </script>
+
     </head>
+
     <body>
-        <p style="text-align: left;"><font size="+2">The Stuyvesant Spectator</font>
-            <span style="float: right;">
-            <a href="about.html">WHAT WE DO</a> |
-            <a href="contact.html">CONTACT </a> |
-            <a href="editorpicks.html">EDITOR PICKS</a></span>
-        </p>
+
+        <div id="navbar"></div>
         <table style="height: 175px;" width="100%">
             <tbody>
                 <tr>
-                    <td style="text-align: center;"><img src="editorpick.png"></td>
+                    <td style="text-align: center;"><img src="img/editorpick.png"></td>
                 </tr>
             </tbody>
         </table>
-        <table style="width:100%">
-            <tr>
-                <th><a href="">Spec</a></th>
-                <th><a href="">A&E</a></th>
-                <th><a href="">Art</a></th>
-                <th><a href="">Business</a></th>
-                <th><a href="">Copy</a></th>
-                <th><a href="">Features</a></th>
-                <th><a href="">Humor</a></th>
-                <th><a href="">Layout</a></th>
-                <th><a href="">News</a></th>
-                <th><a href="">Opinions</a></th>
-                <th><a href="">Photo</a></th>
-                <th><a href="">Sports</a></th>
-                <th><a href="">Web</a></th>
-            </tr>
+        <table class="horizontal-bar">
+            <tr class="horizontal-bar-row"></tr>
         </table>
+        <script src="js/custom.js"></script>
         <hr />
         <center>
             <h3>Editor Picks</h3>

@@ -1,0 +1,51 @@
+/*----- GENERAL -----*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.horizontal-bar {
+    width: 100%;
+    border: none;
+}
+
+.horizontal-bar tr {
+    text-align: center;
+}
+
+.horizontal-bar tr td {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.horizontal-bar tr td:hover {
+    cursor: pointer;
+    background: #acacac;
+}
+
+.horizontal-bar tr td a {
+    text-decoration: underline;
+    color: #000;
+    margin: 0 10px;
+    font-family: "Times New Roman";
+    font-weight: 600;
+}
+
+/*----- INDEX.HTML -----*/
+
+.img-container-lg {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
+}

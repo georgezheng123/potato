@@ -1,74 +1,84 @@
-<style>
-    table, th, td {
-    border: 1px solid black;
-    }
-</style>
-<p style="text-align:left;">
-    <img src="logo.png" alt="logo" style="width:604px;height:100px;">
-    <span style="float:right;">
-    <a href="about.html">|WHAT WE DO</a>&nbsp&nbsp&nbsp
-    <a href="contact.html">|CONTACT  </a> &nbsp&nbsp&nbsp
-    <a href="editorpicks.html">|EDITOR PICKS</a></span>
-</p>
-<br>
-<center>
-    <div style="width:1000px;height:500px;border:1px solid #000;">
-        Photo as background of this <br><br><br>
-        In white text overlay first photo with title of tab (notice white circular checkboxes below)<br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <center>○○○○</center>
+<html>
+
+<head>
+
+    <title>Spectator Recruitments</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!--loads the header and fotter-->
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#navbar").load("navbar.html");
+        $("#footer").load("footer.html");
+    });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="content">
+
+        <div id="navbar"></div>
+        <div class="img-container-lg">
+            Photo as background of this <br><br><br>
+            In white text overlay first photo with title of tab (notice white circular checkboxes below)<br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <center>○○○○</center>
+        </div>
+        &nbsp
+        <table class="horizontal-bar">
+            <tr class="horizontal-bar-row"></tr>
+        </table>
+
+        <script>
+        $(".scrollMe").click(function() {
+            var idToScroll = "." + $(this).attr('id');
+            console.log(id);
+            $('html,body').animate({
+                scrollTop: $( idToScroll ).offset().top},
+                'slow');
+        });
+        </script>
+        &nbsp&nbsp&nbsp
+        <br><br>
+
+        <script src="js/custom.js"></script>
+        <div class="">
+            <table>
+                <tr>
+                    <th style="width:66%">
+                        <p style="text-align:left;">
+                        <h3>Department Name <br> testimonial<br>quote</h3>
+                    </th>
+                    <span style="float:right;">
+                    <th style="width:34%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
+                </tr>
+            </table>
+            </p>
+            <table>
+                <tr>
+                    <span style="float:right;">
+                    <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
+                    <th style="width:66%">
+                        <h3>Department Name <br> testimonial<br>quote</h3>
+                    </th>
+                </tr>
+            </table>
+            </p>
+            <table>
+                <tr>
+                    <th style="width:66%">
+                        <p style="text-align:left;">
+                        <h3>Department Name <br> testimonial<br>quote</h3>
+                    </th>
+                    <span style="float:right;">
+                    <th style="width:34%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
+                </tr>
+            </table>
+        </center>
     </div>
-</center>
-&nbsp
-<table style="width:100%">
-    <tr>
-        <th><a href="recruitment-descriptions.html">Spec</a></th>
-        <th><a href="recruitment-descriptions.html">A&E</a></th>
-        <th><a href="recruitment-descriptions.html">Art</a></th>
-        <th><a href="recruitment-descriptions.html">Business</a></th>
-        <th><a href="recruitment-descriptions.html">Copy</a></th>
-        <th><a href="recruitment-descriptions.html">Features</a></th>
-        <th><a href="recruitment-descriptions.html">Humor</a></th>
-        <th><a href="recruitment-descriptions.html">Layout</a></th>
-        <th><a href="recruitment-descriptions.html">News</a></th>
-        <th><a href="recruitment-descriptions.html">Opinions</a></th>
-        <th><a href="recruitment-descriptions.html">Photo</a></th>
-        <th><a href="recruitment-descriptions.html">Sports</a></th>
-        <th><a href="recruitment-descriptions.html">Web</a></th>
-    </tr>
-</table>
-&nbsp&nbsp&nbsp<br><br>
-<center>
-    <table border="0px">
-        <tr>
-            <th style="width:66%">
-                <p style="text-align:left;">
-                <h3>Department Name <br> testimonial<br>quote</h3>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    </p>
-    <table border="0px">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%">
-                <p style="text-align:left;">
-                <h3>Department Name <br> testimonial<br>quote</h3>
-            </th>
-        </tr>
-    </table>
-    </p>
-    <table border="0px">
-        <tr>
-            <th style="width:66%">
-                <p style="text-align:left;">
-                <h3>Department Name <br> testimonial<br>quote</h3>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-</center>
+</body>
+
+</html>
