@@ -33,12 +33,15 @@
         </table>
 
         <script>
-        $(".scrollMe").click(function() {
-            var idToScroll = "." + $(this).attr('id');
-            console.log(id);
-            $('html,body').animate({
-                scrollTop: $( idToScroll ).offset().top},
-                'slow');
+        $(document).ready(function() {
+            $(".scrollMe").click(function() {
+                console.log(3);
+                var idToScroll = "#" + $(this).attr('data-scrollTo');
+                console.log(idToScroll);
+                $('html,body').animate({
+                    scrollTop: $( idToScroll ).offset().top},
+                    'slow');
+            });
         });
         </script>
         &nbsp&nbsp&nbsp

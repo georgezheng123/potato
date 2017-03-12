@@ -25,9 +25,6 @@ table, th, td {
     margin: 0 4px;
     padding: 5px 10px;
     border: none;
-}
-
-.horizontal-bar tr td a {
     text-decoration: underline;
     color: #000;
     margin: 0 10px;
@@ -35,8 +32,7 @@ table, th, td {
     font-weight: 600;
 }
 
-.horizontal-bar tr td:hover,
-.horizontal-bar tr td a:hover {
+.horizontal-bar tr td:hover {
     cursor: pointer;
     background: #acacac;
 }
@@ -68,4 +64,11 @@ table, th, td {
 .department-previews table tr .smaller img {
     width: 304px;
     height: 228px;
+}
+
+/*----- EDITOR PICKS -----*/
+
+.angelaTable {
+    height: 120px;
+    width: 60%;
 }
