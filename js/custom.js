@@ -1,8 +1,7 @@
 var departments = [ 'ae', 'art', 'business', 'copy', 'features',' humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
 
 (function() {
-    var row = document.getElementsByClassName("horizontal-bar-row")[0];
-
+    var row = document.getElementById("horizontal-bar-row");
     for (var d = 0; d < departments.length; d++) {
         var td = row.insertCell(0);
         var elementId = "scrollTo-" + departments[d];
