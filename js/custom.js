@@ -1,4 +1,4 @@
-var departments = [ 'ae', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
+var departments = [ 'a&E', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
 
 /* horizontal bar */
 function showHorizontalBar() {
@@ -20,9 +20,10 @@ function showHorizontalBar() {
 function showDepartmentPreviews() {
     var departmentPreviews = document.getElementsByClassName("department-previews")[0];
     for (var d = 0; d < departments.length; d++) {
-        deptName = '<h3>' + departments[d] + '</h3>' //some json stuff
-        deptQuote = '<p>Quote</p>'; // some json stuff
-        deptTestimonial = '<p>Testimonial</p>'; // some json stuff
+        deptName= '<div id = "headings">' + departments[d] + '</div>' //some json stuff
+        line = '<div id = "line"> </div>'
+        deptQuote = '<blockquote>' + 'quote' + '</blockquote>' + '<br><div class = "desc" style = "float:right;">&mdash; Aristotle</div>'; // some json stuff
+        deptTestimonial = '<div class = "desc">' + "description" + "</div>"; // some json stuff
         deptPhoto = '<img src="' + "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" + '">';
         var table = document.createElement('table');
         table.setAttribute('id',"scrollTo-" + departments[d]);
@@ -30,7 +31,7 @@ function showDepartmentPreviews() {
         if (d % 2 == 0) {
             var larger = row.insertCell(0);
             larger.setAttribute('class','larger');
-            larger.innerHTML = deptName + deptQuote + deptTestimonial;
+            larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
             var smaller = row.insertCell(1);
             smaller.setAttribute('class','smaller');
             smaller.innerHTML = deptPhoto;
@@ -40,7 +41,7 @@ function showDepartmentPreviews() {
             smaller.innerHTML = deptPhoto;
             var larger = row.insertCell(1);
             larger.setAttribute('class','larger');
-            larger.innerHTML = deptName + deptQuote + deptTestimonial;
+            larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
         }
         departmentPreviews.appendChild(table);
     }

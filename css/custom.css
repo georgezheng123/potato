@@ -44,27 +44,83 @@ table, th, td {
     margin: 0 auto;
     width: 1000px;
     height: 500px;
-    border: 1px solid #000;
+    border:none;
 }
 
 .department-previews {
     display: block;
     margin: 0 auto;
+    border: none;
+}
+
+.department-previews tr td  {
+  border: none;
 }
 
 .department-previews table tr .larger {
     width: 66%;
     text-align: center;
+    border: none;
 }
 
 .department-previews table tr .smaller {
     width: 34%;
+    border:none;
 }
 
 .department-previews table tr .smaller img {
     width: 304px;
     height: 228px;
+    border: none;
 }
+    .desc {
+      font-family: 'Open Sans', sans-serif;
+      border:none;
+      text-align: left;
+      width:70%;
+    }
+
+    #headings {
+      font-family: 'Oswald', sans-serif;
+      font-size: 50px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: left;
+    }
+
+    #line {
+      height:10px;
+      background-color:black;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    blockquote {
+      float:left;
+      font-family: 'Open Sans', sans-serif;
+      display:inline-block;
+      font-style: italic;
+      border-left: 7px solid gray;
+      padding-left: 15px;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    blockquote::before {
+      /*note: open quote looks like a close quote but idk how to fix this :(( */
+      content:"\201C";
+      font-family: 'Catamaran', sans-serif;
+      font-size: 50px;
+      vertical-align: -0.3em;
+      padding-right: 10px;
+    }
+
+    blockquote::after {
+      content:"\201D";
+      font-family: 'Catamaran', sans-serif;
+      font-size: 50px;
+      vertical-align: -0.4em;
+    }
 
 /*----- EDITOR PICKS -----*/
 
