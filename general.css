@@ -65,6 +65,8 @@
     border-width: 2px;
     border-collapse: collapse;
     background-color: #47A0B4;
+    width: 100%;
+    margin-top: 0;
 }
 
 #navbar th {
@@ -104,5 +106,4 @@
 #what-we-do {
     font-family: "Times New Roman";
     line-height: 2em;
-    width: 100%;
 }
