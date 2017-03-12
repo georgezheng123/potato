@@ -1,0 +1,98 @@
+{
+    "ae": {
+        "quote": "AE is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "art": {
+        "quote": "Art is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "business": {
+        "quote": "Business is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "copy": {
+        "quote": "Copy is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "features": {
+        "quote": "Features is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "humor": {
+        "quote": "Humor is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "layout": {
+        "quote": "Layout is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "news": {
+        "quote": "News is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "opinions": {
+        "quote": "Opinions is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "photo": {
+        "quote": "Photo is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "sports": {
+        "quote": "Sports is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    },
+    "web": {
+        "quote": "Web is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Trust me. It's cool.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
+        "email": "coolBeans2000@stuyspec.com"
+    }
+}

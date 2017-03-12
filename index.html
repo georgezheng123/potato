@@ -54,7 +54,8 @@
     <script src="js/custom.js"></script>
     <script>
     showHorizontalBar();
-    showDepartmentPreviews();
+    $.getJSON(filename, showDepartmentPreviews);
+
     </script>
 </body>
 

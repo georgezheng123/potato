@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/template.css">
-        <title>What We Do</title>
-    </head>
+<head>
+
+    <title>What We Do</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/template.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Catamaran" rel="stylesheet">
+    <!--loads the header and fotter-->
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#navbar").load("navbar.html");
+        $("#footer").load("footer.html");
+    });
+    </script>
+
+</head>
     <body>
-        <p style="text-align:left;">
-        <font size="+2">The Stuyvesant Spectator</font>
-        <span style="float:right;">
-        <a href=""                 class="link-general">WHAT WE DO</a> |
-        <a href="contact.html"     class="link-general">CONTACT  </a> |
-        <a href="editorpicks.html" class="link-general">EDITOR PICKS</a></span>
-        </p><br><br>
+        <div id="navbar"></div>
         <center>
             <div class="welcomeMat-container">
             <h1 class="welcome-text">What We Do</h1>
@@ -19,24 +25,7 @@
             <center>○○○○</center>
             </div>
         </center>
-        &nbsp;
-        <table id="navbar">
-          <tr>
-            <th><a href="">Spec</a></th>
-            <th><a href="">A&amp;E</a></th>
-            <th><a href="">Art</a></th>
-            <th><a href="">Business</a></th>
-            <th><a href="">Copy</a></th>
-            <th><a href="">Features</a></th>
-            <th><a href="">Humor</a></th>
-            <th><a href="">Layout</a></th>
-            <th><a href="">News</a></th>
-            <th><a href="">Opinions</a></th>
-            <th><a href="">Photo</a></th>
-            <th><a href="">Sports</a></th>
-            <th><a href="">Web</a></th>
-          </tr>
-        </table>&nbsp;&nbsp;&nbsp;<br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<br><br>
         <div id="what-we-do" class="content-width">
             <p><span class="first-word">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis sollicitudin sapien, vitae elementum lacus volutpat pharetra. Nunc id neque nulla. Aliquam posuere feugiat enim eu aliquam. Suspendisse iaculis vitae arcu non hendrerit. Proin scelerisque eros vitae enim mattis dapibus. Etiam dictum odio augue, nec porta purus auctor quis. Nam scelerisque malesuada dui eu hendrerit. Aliquam ut facilisis enim.</p>
 
@@ -52,4 +41,3 @@
         </div>
     </body>
 </html>
-

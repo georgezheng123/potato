@@ -1,4 +1,8 @@
-var departments = [ 'a&E', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photo', 'sports', 'web' ];
+var filename = '../data.json';
+
+var info;
+
+var departments = [ 'ae', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photos', 'sports', 'web' ];
 
 /* horizontal bar */
 function showHorizontalBar() {
@@ -8,27 +12,24 @@ function showHorizontalBar() {
         var scrollToElement = "scrollTo-" + departments[d];
         td.setAttribute('data-scrollTo',scrollToElement);
         td.setAttribute('class','scrollMe');
-        if (departments[d] === 'ae') {
-            td.innerHTML = 'Arts&amp;Entertainment';
-        } else {
-            td.innerHTML = departments[d].charAt(0).toUpperCase() + departments[d].slice(1);
-        }
+        td.innerHTML = formatName(departments[d]);
     }
 }
 
 /* department previews */
-function showDepartmentPreviews() {
+function showDepartmentPreviews(info) {
     var departmentPreviews = document.getElementsByClassName("department-previews")[0];
-    for (var d = 0; d < departments.length; d++) {
-        deptName= '<div id = "headings">' + departments[d] + '</div>' //some json stuff
-        line = '<div id = "line"> </div>'
-        deptQuote = '<blockquote>' + 'quote' + '</blockquote>' + '<br><div class = "desc" style = "float:right;">&mdash; Aristotle</div>'; // some json stuff
-        deptTestimonial = '<div class = "desc">' + "description" + "</div>"; // some json stuff
-        deptPhoto = '<img src="' + "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" + '">';
+    var largerFirst = true;
+    for (var dept in info) {
+        deptName= '<div id = "headings">' + formatName(dept) + '</div>' //some json stuff
+        line = '<div id = "line"></div>';
+        deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<br><div class = "desc" style = "float:right;">&mdash; ' + info[dept].person + '</div>'; // some json stuff
+        deptTestimonial = '<div class = "desc">' + info[dept].testimonial + "</div>"; // some json stuff
+        deptPhoto = '<img src="' + info[dept].photo + '">';
         var table = document.createElement('table');
-        table.setAttribute('id',"scrollTo-" + departments[d]);
+        table.setAttribute('id',"scrollTo-" + dept);
         var row = table.insertRow(0);
-        if (d % 2 == 0) {
+        if (largerFirst) {
             var larger = row.insertCell(0);
             larger.setAttribute('class','larger');
             larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
@@ -44,6 +45,7 @@ function showDepartmentPreviews() {
             larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
         }
         departmentPreviews.appendChild(table);
+        largerFirst = !largerFirst;
     }
 }
 
@@ -66,5 +68,28 @@ function showEditorPicks() {
         var td = row.insertCell(0);
         td.innerHTML = deptName + deptDescription;
         editorPicks.appendChild(table);
+    }
+}
+
+function showContactDetails(info) {
+    var contactContainers = document.getElementsByClassName("contact-info-sections")[0];
+    for (var dept in info) {
+        var div = document.createElement('div');
+        var title = document.createElement('h3');
+        title.innerHTML = formatName(dept);
+        div.appendChild(title);
+        var link = document.createElement('a');
+        link.setAttribute('href','mailto:' + info[dept].email);
+        link.innerHTML = info[dept].email;
+        div.appendChild(link);
+        contactContainers.appendChild(div);
+    }
+}
+
+function formatName(dept) {
+    if (dept === 'ae') {
+        return 'Arts&amp;Entertainment';
+    } else {
+        return dept.charAt(0).toUpperCase() + dept.slice(1);
     }
 }
