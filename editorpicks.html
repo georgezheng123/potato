@@ -1,146 +1,45 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <style>
-            table, th, td {
-            border: 1px solid black;
-            }
-        </style>
+
+        <title>Spectator Recruitments</title>
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+        <!--loads the header and fotter-->
+        <script src="js/jquery.min.js"></script>
+        <script>
+        $(function(){
+          $("#navbar").load("navbar.html");
+          $("#footer").load("footer.html");
+        });
+        </script>
+
     </head>
+
     <body>
-        <p style="text-align: left;"><font size="+2">The Stuyvesant Spectator</font>
-            <span style="float: right;">
-            <a href="about.html">WHAT WE DO</a> |
-            <a href="contact.html">CONTACT </a> |
-            <a href="editorpicks.html">EDITOR PICKS</a></span>
-        </p>
+
+        <div id="navbar"></div>
         <table style="height: 175px;" width="100%">
             <tbody>
                 <tr>
-                    <td style="text-align: center;"><img src="editorpick.png"></td>
+                    <td style="text-align: center;"><img src="img/editorpick.png"></td>
                 </tr>
             </tbody>
         </table>
-        <table style="width:100%">
-            <tr>
-                <th><a href="">Spec</a></th>
-                <th><a href="">A&E</a></th>
-                <th><a href="">Art</a></th>
-                <th><a href="">Business</a></th>
-                <th><a href="">Copy</a></th>
-                <th><a href="">Features</a></th>
-                <th><a href="">Humor</a></th>
-                <th><a href="">Layout</a></th>
-                <th><a href="">News</a></th>
-                <th><a href="">Opinions</a></th>
-                <th><a href="">Photo</a></th>
-                <th><a href="">Sports</a></th>
-                <th><a href="">Web</a></th>
-            </tr>
+        <table class="horizontal-bar">
+            <tr class="horizontal-bar-row"></tr>
         </table>
         <hr />
-        <center>
+        <center class="editor-picks-list">
             <h3>Editor Picks</h3>
             <hr />
-            <div class="Ae">
-                <p><strong>Arts & Entertainment</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="art">
-                <p><strong>Art</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="copy">
-                <p><strong>Copy</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="features">
-                <p><strong>Features</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="humor">
-                <p><strong>Humor</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="layout">
-                <p><strong>Layout</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            </div class="news">
-            <p><strong>News</strong></p>
-            <table style="height: 120px;" width="60%">
-                <tbody>
-                    <tr>
-                        <th><a href="">Article Name/img/art</a></th>
-                    </tr>
-                </tbody>
-            </table>
-            </div>
-            <div class="opinions">
-            <p><strong>Opinions</strong></p>
-            <table style="height: 120px;" width="60%">
-                <tbody>
-                    <tr>
-                        <th><a href="">Article Name/img/art</a></th>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="photo">
-                <p><strong>Photo</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="sports">
-                <p><strong>Sports</strong></p>
-                <table style="height: 120px;" width="60%">
-                    <tbody>
-                        <tr>
-                            <th><a href="">Article Name/img/art</a></th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
         </center>
+
+        <script src="js/custom.js"></script>
+        <script>
+        showHorizontalBar();
+        showEditorPicks();
+        </script>
     </body>
 <html>

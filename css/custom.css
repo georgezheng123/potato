@@ -1,0 +1,74 @@
+/*----- GENERAL -----*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.horizontal-bar {
+    width: 100%;
+    border: none;
+}
+
+.horizontal-bar tr {
+    text-align: center;
+}
+
+.horizontal-bar tr td {
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+    padding: 5px 10px;
+    border: none;
+    text-decoration: underline;
+    color: #000;
+    margin: 0 10px;
+    font-family: "Times New Roman";
+    font-weight: 600;
+}
+
+.horizontal-bar tr td:hover {
+    cursor: pointer;
+    background: #acacac;
+}
+
+/*----- INDEX.HTML -----*/
+
+.img-container-lg {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.department-previews {
+    display: block;
+    margin: 0 auto;
+}
+
+.department-previews table tr .larger {
+    width: 66%;
+    text-align: center;
+}
+
+.department-previews table tr .smaller {
+    width: 34%;
+}
+
+.department-previews table tr .smaller img {
+    width: 304px;
+    height: 228px;
+}
+
+/*----- EDITOR PICKS -----*/
+
+.angelaTable {
+    height: 120px;
+    width: 60%;
+}

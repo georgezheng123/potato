@@ -1,9 +1,6 @@
 <html>
 <head>
 <style type = "text/css">
-table, th, td {
-  border: 1px solid black;
-}
 a {
   text-decoration: none;
 }
@@ -26,7 +23,7 @@ will fix this later
   float:center;
   clear:left;
 } **/
-#box {
+.department-container {
   height:auto;
   width:800px;
   position: absolute;
@@ -39,7 +36,7 @@ will fix this later
   float:center;
   color:inherit;
 }
-.buttons {
+.apply-now {
     background-color: #fff;
     color: #000;
     letter-spacing: 3px;
@@ -54,7 +51,7 @@ will fix this later
     width:200px;
 }
 /* issue with link color, will fix later */
-.buttons:hover {
+.apply-now:hover {
   color: #fff;
   background-color: #000;
 }
@@ -73,15 +70,15 @@ will fix this later
   <!-- end header -->
   <br>
   <br>
-  <div id= "box">
-    <p><div style = "font-size:50px;">DEPARTMENT NAME</div></p><br><br>
+  <div class="department-container">
+    <p><div style="font-size:50px;">DEPARTMENT NAME</div></p><br><br>
     department description
     <br>
     box gets long as you add more text
     <br>
     room for lots n lots of description
     <br><br><br><br>
-    <center><div class = "buttons"><a href = "/">APPLY NOW </a> </div></center>
+    <center><div class ="apply-now"><a href ="/">APPLY NOW </a> </div></center>
     <p></p>
   </div>
 </body>

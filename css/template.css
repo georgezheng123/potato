@@ -1,7 +1,19 @@
+/* GENERAL */
+table, th, td {
+    border: 1px solid black;
+}
+
 .content-width {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /*
@@ -58,7 +70,7 @@
 
 /*
   Make the navbar with all the departments on it look good
-*/
+
 #navbar {
     border-style: outset;
     border-color: black;

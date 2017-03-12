@@ -1,304 +1,61 @@
+
 <html>
+
 <head>
-  <title> Spectator Recruitments</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Catamaran" rel="stylesheet">
-<style>
-    table, th, td {
-    font-family: 'Open Sans', sans-serif;
-    padding-right: 20px;
-    }
 
-    .navbar {
-      border:1px solid black;
-    }
+    <title>Spectator Recruitments</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Catamaran" rel="stylesheet">
+    <!--loads the header and fotter-->
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $("#navbar").load("navbar.html");
+        $("#footer").load("footer.html");
+    });
+    </script>
 
-    .desc {
-      border:none;
-      text-align: left;
-      width:70%;
-    }
-
-    #headings {
-      font-family: 'Oswald', sans-serif;
-      font-size: 40px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-    }
-
-    #line {
-      height:10px;
-      background-color:black;
-      border-radius: 8px;
-    }
-
-    blockquote {
-      display:inline-block;
-      font-style: italic;
-      border-left: 7px solid gray;
-      padding-left: 15px;
-      line-height: 30px;
-      text-align: left;
-    }
-
-    blockquote::before {
-      /*note: open quote looks like a close quote but idk how to fix this :(( */
-      content:"\201C";
-      font-family: 'Catamaran', sans-serif;
-      font-size: 50px;
-      vertical-align: -0.3em;
-      padding-right: 10px;
-    }
-
-    blockquote::after {
-      content:"\201D";
-      font-family: 'Catamaran', sans-serif;
-      font-size: 50px;
-      vertical-align: -0.4em;
-    }
-
-</style>
 </head>
+
 <body>
-<p style="text-align:left;">
-    <img src="logo.png" alt="logo" style="width:604px;height:100px;">
-    <span style="float:right;">
-    <a href="about.html">|WHAT WE DO</a>&nbsp&nbsp&nbsp
-    <a href="contact.html">|CONTACT  </a> &nbsp&nbsp&nbsp
-    <a href="editorpicks.html">|EDITOR PICKS</a></span>
-</p>
-<br>
-<center>
-    <div style="width:1000px;height:500px;border:1px solid #000;">
-        Photo as background of this <br><br><br>
-        In white text overlay first photo with title of tab (notice white circular checkboxes below)<br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <center>○○○○</center>
+
+    <div class="content">
+
+        <div id="navbar"></div>
+        <div class="img-container-lg">
+            Photo as background of this <br><br><br>
+            In white text overlay first photo with title of tab (notice white circular checkboxes below)<br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <center>○○○○</center>
+        </div>
+        &nbsp
+        <table class="horizontal-bar">
+            <tr class="horizontal-bar-row"></tr>
+        </table>
+
+        <script>
+        $(document).ready(function() {
+            $(".scrollMe").click(function() {
+                console.log(3);
+                var idToScroll = "#" + $(this).attr('data-scrollTo');
+                console.log(idToScroll);
+                $('html,body').animate({
+                    scrollTop: $( idToScroll ).offset().top},
+                    'slow');
+            });
+        });
+        </script>
+        &nbsp&nbsp&nbsp
+        <br><br>
+
+        <center class="department-previews"></center>
     </div>
-</center>
-&nbsp
-<table style="width:100%" class = "navbar">
-    <tr>
-        <th><a href="recruitment-descriptions.html">Spec</a></th>
-        <th><a href="recruitment-descriptions.html">A&E</a></th>
-        <th><a href="recruitment-descriptions.html">Art</a></th>
-        <th><a href="recruitment-descriptions.html">Business</a></th>
-        <th><a href="recruitment-descriptions.html">Copy</a></th>
-        <th><a href="recruitment-descriptions.html">Features</a></th>
-        <th><a href="recruitment-descriptions.html">Humor</a></th>
-        <th><a href="recruitment-descriptions.html">Layout</a></th>
-        <th><a href="recruitment-descriptions.html">News</a></th>
-        <th><a href="recruitment-descriptions.html">Opinions</a></th>
-        <th><a href="recruitment-descriptions.html">Photo</a></th>
-        <th><a href="recruitment-descriptions.html">Sports</a></th>
-        <th><a href="recruitment-descriptions.html">Web</a></th>
-    </tr>
-</table>
-&nbsp&nbsp&nbsp<br><br>
-<center>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">arts & entertainment </div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">art</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">business </div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">copy</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">features </div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">humor</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">layout</div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">news</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">opinions </div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">photos</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <th style="width:66%">
-                <div id = "headings">sports </div>
-                <div id = "line"></div>
-                <br>
-                Testimonial, blah blah blah join web
-                <br>
-                Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-                <br>
-                <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-                <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-            <span style="float:right;">
-            <th style="width:34%"><img src="https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-        </tr>
-    </table>
-    <table border="0px" class = "desc">
-        <tr>
-            <span style="float:right;">
-            <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg" alt="Mountain View" style="width:304px;height:228px;"></th>
-            <th style="width:66%; text-align:right;">
-              <div id = "headings">web</div>
-              <div id = "line"></div>
-              <br>
-              Testimonial, blah blah blah join web
-              <br>
-              Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense."
-              <br>
-              <blockquote>How many licks does it take to get to the tootsie roll center of a tootsie pop?</blockquote>
-              <div style = "text-align:right;">&mdash; Aristotle</div>
-            </th>
-        </tr>
-    </table>
-</center>
+
+    <script src="js/custom.js"></script>
+    <script>
+    showHorizontalBar();
+    showDepartmentPreviews();
+    </script>
 </body>
+
 </html>
