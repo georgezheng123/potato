@@ -39,11 +39,11 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    height: 200px;
+    height: 170px;
     width: 100%;
     margin-bottom: 0;
     background-color: #A1A1A1;
-    background-image: url("https://imgs.6sqft.com/wp-content/uploads/2017/01/01094437/second-avenue-subway-opening-2017-21.jpg");
+    /*background-image: url("https://imgs.6sqft.com/wp-content/uploads/2017/01/01094437/second-avenue-subway-opening-2017-21.jpg");*/
     background-size: cover;
 }
 
