@@ -22,14 +22,9 @@ table, th, td {
 .horizontal-bar tr td {
     display: inline-block;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 4px;
     padding: 5px 10px;
     border: none;
-}
-
-.horizontal-bar tr td:hover {
-    cursor: pointer;
-    background: #acacac;
 }
 
 .horizontal-bar tr td a {
@@ -40,6 +35,12 @@ table, th, td {
     font-weight: 600;
 }
 
+.horizontal-bar tr td:hover,
+.horizontal-bar tr td a:hover {
+    cursor: pointer;
+    background: #acacac;
+}
+
 /*----- INDEX.HTML -----*/
 
 .img-container-lg {
@@ -48,4 +49,23 @@ table, th, td {
     width: 1000px;
     height: 500px;
     border: 1px solid #000;
+}
+
+.department-previews {
+    display: block;
+    margin: 0 auto;
+}
+
+.department-previews table tr .larger {
+    width: 66%;
+    text-align: center;
+}
+
+.department-previews table tr .smaller {
+    width: 34%;
+}
+
+.department-previews table tr .smaller img {
+    width: 304px;
+    height: 228px;
 }
