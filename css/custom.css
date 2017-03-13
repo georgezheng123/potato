@@ -58,7 +58,8 @@ table, th, td {
     text-decoration: underline;
     color: #000;
     margin: 0 10px;
-    font-family: "Times New Roman";
+    font-family: adobe_caslon_reg;
+    font-size: 18px;
     font-weight: 600;
 }
 
