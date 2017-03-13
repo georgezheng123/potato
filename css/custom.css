@@ -10,6 +10,18 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: adobe_caslon_reg;
+    src: url(../fonts/adobe_caslon_reg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: avenir_next;
+    src: url(../fonts/avenir_next.ttc);
+    font-weight: bold;
+}
+
 /*----- INDEX 2 -----*/
 
 
@@ -97,14 +109,14 @@ table, th, td {
 }
 
 .desc {
-    font-family: 'Open Sans', sans-serif;
+    font-family: adobe_caslon_reg, sans-serif;
     border:none;
     text-align: left;
     width:70%;
 }
 
 #headings {
-    font-family: 'Oswald', sans-serif;
+    font-family: avenir_next, sans-serif;
     font-size: 50px;
     letter-spacing: 3px;
     text-transform: uppercase;
