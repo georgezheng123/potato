@@ -108,7 +108,7 @@ function formatName(dept) {
     var topOfThePage = true;
     //add the scroll-top button to the page, but its invisible for now
     //former image: http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico
-    document.body.innerHTML += '<div id="back2Top" style="width: 40px; height: 40px; position: fixed; bottom: 40px; right: 20px; background-color: #eee; display: none;"><img src="/img/up_arrow.png" width="64" height="64" alt="Back To Top"/></div>';
+    document.body.innerHTML += '<div id="back2Top" style="width: 40px; height: 40px; position: fixed; bottom: 40px; right: 20px; background-color: #eee; display: none;"><img src="../img/up_arrow.png" width="64" height="64" alt="Back To Top"/></div>';
     //onlick: scroll to top, hide the button
     $("#back2Top").click(function() {
         $("body").animate({scrollTop: 0}, "slow", function() {
@@ -121,6 +121,9 @@ function formatName(dept) {
         if(topOfThePage) {
             $("#back2Top").show();
             topOfThePage = false;
+        }
+        if($("body").scrollTop() < 1) {
+            topOfThePage = true;
         }
     });
 })();
