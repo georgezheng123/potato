@@ -28,11 +28,12 @@ function showDepartmentPreviews(info) {
         } else {
             deptQuote = "";
         }
-        if (info[dept].testimonial != null) {
-            deptTestimonial = '<div class = "desc">' + info[dept].testimonial + "</div>"; // some json stuff
+        if (info[dept].description == null) {
+            deptDescription = "";
         } else {
-            deptTestimonial ="";
+            deptDescription = '<div class="desc">' + info[dept].description + '</div>';
         }
+
         deptPhoto = '<img src="' + info[dept].photo + '">';
         var table = document.createElement('table');
         table.setAttribute('id',"scrollTo-" + dept);
@@ -40,7 +41,7 @@ function showDepartmentPreviews(info) {
         if (largerFirst) {
             var larger = row.insertCell(0);
             larger.setAttribute('class','larger');
-            larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
+            larger.innerHTML = deptName + line + deptDescription + deptQuote;
             var smaller = row.insertCell(1);
             smaller.setAttribute('class','smaller');
             smaller.innerHTML = deptPhoto;
@@ -50,7 +51,7 @@ function showDepartmentPreviews(info) {
             smaller.innerHTML = deptPhoto;
             var larger = row.insertCell(1);
             larger.setAttribute('class','larger');
-            larger.innerHTML = deptName + line + deptTestimonial + deptQuote;
+            larger.innerHTML = deptName + line + deptDescription + deptQuote;
         }
         departmentPreviews.appendChild(table);
         largerFirst = !largerFirst;

@@ -2,15 +2,14 @@
     "ae": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "applicaiton": "https://docs.google.com/forms/d/1CDhMpdShfF1RFFFFwsPDmPu0FJVr9yJMTWMasVh9BQU/viewform?edit_requested=true"
     },
     "art": {
         "quote": "Although I’m just a freshman, I feel like I really fit into this artistic community; the people are amazing and everyone is so supportive.",
         "person": "Alex Lin",
-        "testimonial": "Why join Spec Art.. why WOULDN'T you join Spec Art? Imagine sitting home and drawing away, putting your talent into a drawing that will be shown to almost everyone in the school. Drawing for the art department has been such a fantastic experience. The club meetings are incredibly fun and relaxing as well. You can socialize with friends and feel free to be yourself. With different articles to draw for every 2 weeks, you'll find yourself challenged, but having fun at the same time.",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
         "email": null,
@@ -19,81 +18,85 @@
     "business": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://stuyspec.recruiterbox.com/jobs/fk0mpjc/"
     },
     "copy": {
-        "quote": null,
-        "person": null,
-        "testimonial": null,
+        "quote": "Being a part of Spec Copy is incredibly satisfying! I've always been a grammar nerd, so being able to use that to my advantage to help out The Spectator is absolutely a win-win situation. I love that it also means getting to see the various pieces before the final issue is released. We have some really talented writers, and being able to polish their work and contribute to such a great publication is a privilege.",
+        "person": "Tasfia Bashar, Junior",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://docs.google.com/forms/d/e/1FAIpQLSdvIogqDHzcZtF788R-OStaPTq_1WGtRAQGMPHZN2auu4F0pA/viewform?c=0&w=1"
     },
     "features": {
-        "quote": null,
-        "person": null,
-        "testimonial": null,
+        "quote": "Writing for Features has been one of the most enjoyable parts of my high school experience, as cliche as it sounds. There is nothing sweeter than the sense of accomplishment that comes after writing a dope article.",
+        "person": "Asim Kapparova, Junior",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "description": "The best way to describe Features in one word is STORYTELLING. This is our main, essential craft. We write profiles telling the stories of interesting people or communities at Stuyvesant, provide more information and delve deeper into issues that News has covered, uncover information about specific issues at Stuy, and more. We're a very fun, creative department, but we also deal with hardcore investigative journalism that can actually effect change and shock people! If you love writing stories, digging around, and writing some hard-hitting articles, then the Features Department is the place for you.",
+        "application": "https://docs.google.com/forms/d/e/1FAIpQLSc7K6Gqax4X_0IHyNbFnTFveIY2iXsjVLA-fIuKPS2u0mwbTg/viewform?usp=sf_link"
     },
     "humor": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://docs.google.com/forms/d/e/1FAIpQLScfJpOohkelPs2lXJE-flKkSqL4UrnXX84449DwaKZo9qZ2_g/viewform"
     },
     "layout": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "description": "A good publication should interest readers before they even pick it up and read it; the Layout department does just that! We are the last department that works with the newspaper and are responsible for formatting all of the articles, photos, art, etc. We make sure that the paper is aesthetically appealing and easy to read. After all, no one wants to read ugly and confusing blocks of text. With creativity and a certain magic called the InDesign, we present to you what you know as the Spectator.\nAs a staff member, you will be taught how to use InDesign and asked to critique the formatting of each issue as it is released.",
+        "application": "https://goo.gl/forms/mfMNPD4xKPceNepR2"
     },
     "news": {
-        "quote": null,
-        "person": null,
-        "testimonial": null,
+        "quote": "The News Department is one of my favorite parts about Stuy. We go to such a big school and sometimes, it becomes overwhelming. Being able to interview different staff and people from other grades, who you may never otherwise have met, makes you realize that Stuy isn't always intimidating as it may seem if you can find something that makes you happy.",
+        "person": "Sasha Spajic, Sophomore",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://docs.google.com/forms/d/e/1FAIpQLSerzJDbe4FJPoi1fx2r2WCEUIiV7YyGZhvn7OWU5LPDl0yLMQ/viewform?c=0&w=1"
     },
     "opinions": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://docs.google.com/document/d/1HJicqJ6RGqiZp6nMU3CM3ltB7wGjmgS5t9JN9o-Txms/edit?ts=58c4a136"
     },
     "photo": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "description": "Photo is dedicated to providing interesting and dynamic photographs to support the articles in the Spectator. Typical assignments include portraits of students and teachers, photos at school events – including sports games – and shots of fun things around the city as well. Photography is not just support for articles though, it is journalism in its own right. Photo department members regularly contribute to or spearhead photo essay projects.\nThe Spectator Photo department only hosts a few meetings each term, so the time commitment is minimal. Photo assignments are completed on the photographer’s own schedule, so long as they are in by department deadlines. This department is a good fit for anyone interested in photography, whether you’re just starting out, or you’re an expert looking for a place to practice and refine your skills.",
+        "application": "https://goo.gl/forms/UzFfXVRLCLd2vzQC2"
     },
     "sports": {
         "quote": null,
         "person": null,
-        "testimonial": null,
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "application": "https://docs.google.com/forms/d/1x-lhV8KaxgKsCz5HutN3BSE9Nt9ZYhkfRrAM6lU2ui8/viewform?edit_requested=true"
     },
     "web": {
-        "quote": null,
-        "person": null,
-        "testimonial": null,
+        "quote": "Having the privilege of being a part of the Web Department was the highlight of my year—not only did I learn more about different technologies in web development and the newest frontiers of programming, but I also became friends with an amazing group of people!",
+        "person": "George Zheng, Junior",
         "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null
+        "email": null,
+        "description": "The Web department is responsible for designing and updating The Spectator's website: www.stuyspec.com. This is the perfect department for computer programming enthusiasts who want to help The Spectator enter the frontier of online journalism.",
+        "application": "https://docs.google.com/forms/d/e/1FAIpQLSf4crXgUtJhYQaIEc9HToJvWhgBvoJ52fRd2XfXvRFAri45Tw/viewform?usp=sf_link"
     }
 }
