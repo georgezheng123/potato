@@ -86,11 +86,14 @@ table, th, td {
 }
 
 .department-previews table {
+    display: block;
+    margin: 50px 0px;
     border: none;
 }
 
 .department-previews tr td  {
-  border: none;
+    border: none;
+    vertical-align: top;
 }
 
 .department-previews table tr .larger {
