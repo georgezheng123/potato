@@ -1,4 +1,4 @@
-var filename = 'https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/master/data.json?token=AOn-KN5ccLTibQhL4e8YqYuJ7fbGsBfRks5Yz1r2wA%3D%3D';
+var filename = 'https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/master/data.json?token=AOn-KF-LT2sOn6WHpGe0Ma3mjoQu3fZNks5Yz2QJwA%3D%3D';
 
 var info;
 
