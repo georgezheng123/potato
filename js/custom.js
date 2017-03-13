@@ -1,4 +1,4 @@
-var filename = '../data.json';
+var filename = 'data.json';
 
 var info;
 
