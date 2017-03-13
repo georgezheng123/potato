@@ -50,6 +50,7 @@ table, th, td {
 .department-previews {
     display: block;
     margin: 0 auto;
+    width: 90%;
     border: none;
 }
 
@@ -69,8 +70,7 @@ table, th, td {
 }
 
 .department-previews table tr .smaller img {
-    width: 304px;
-    height: 228px;
+    width: 100%;
     border: none;
 }
     .desc {
@@ -128,3 +128,47 @@ table, th, td {
     height: 120px;
     width: 60%;
 }
+
+/*----- CONTACT -----*/
+
+.contact-container {
+    display: block;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+    width: 40%;
+}
+
+.email {
+    font-family: "Times New Roman";
+}
+
+.general {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.general:hover {
+    color: #888;
+}
+
+.contact-container table,
+.contact-container table td {
+     border: 1px solid #000;
+     text-transform: uppercase;
+     padding: 1px;
+     transition-duration: .2s;
+     color: #000;
+}
+
+.contact-container td {
+    padding: 4px !important;
+}
+
+ .contact-container td:hover {
+     background: #000;
+     cursor: pointer;
+     color: #fff;
+ }
+
+ .conta
