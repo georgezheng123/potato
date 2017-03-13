@@ -1,5 +1,4 @@
-var filename = 'https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/master/data.json?token=AOn-KF-LT2sOn6WHpGe0Ma3mjoQu3fZNks5Yz2QJwA%3D%3D';
-//var filename='../data.json';
+var filename = 'https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/master/data.json?token=AOn-KCEE0lnIzQ_LWSUCKFVh8-4p3VC9ks5Yz2cFwA%3D%3D';//var filename='../data.json';
 var info;
 
 var departments = [ 'ae', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photos', 'sports', 'web' ];
