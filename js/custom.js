@@ -1,5 +1,5 @@
-//var filename='https://georgezheng123.github.io/Spec_Recruit_S2017/data.json';
-var filename = "../data.json";
+var filename='https://georgezheng123.github.io/Spec_Recruit_S2017/data.json';
+//var filename = "../data.json";
 var info;
 
 var departments = [ 'ae', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photos', 'sports', 'web' ];
