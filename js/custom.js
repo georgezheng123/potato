@@ -98,7 +98,7 @@ function formatName(dept) {
 (function() {
     var topOfThePage = true;
     //add the scroll-top button
-    document.body.innerHTML += '<div id="back2Top" style="width: 30px; height: 30px; position: fixed; bottom: 10px; right: 10px; background-color: #ded; display: none;"><img src="http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico" alt="Back To Top"/></div>';
+    document.body.innerHTML += '<div id="back2Top" style="width: 30px; height: 30px; position: fixed; bottom: 10px; right: 10px; background-color: #ded; display: none;"><img src="http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico" width="25px" height="25px" alt="Back To Top"/></div>';
     //onlick: scroll to top, hide the button
     $("#back2Top").click(function() {
         $("body").animate({scrollTop: 0}, "slow");
