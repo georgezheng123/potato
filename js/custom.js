@@ -12,7 +12,7 @@ function showHorizontalBar() {
         var scrollToElement = "scrollTo-" + departments[d];
         td.setAttribute('data-scrollTo',scrollToElement);
         td.setAttribute('class','scrollMe');
-        td.innerHTML = formatName(departments[d]);
+        td.innerHTML = formatName(departments[d]) ;
     }
 }
 
@@ -93,3 +93,23 @@ function formatName(dept) {
         return dept.charAt(0).toUpperCase() + dept.slice(1);
     }
 }
+
+/*Run on document ready*/
+(function() {
+    var topOfThePage = true;
+    //add the scroll-top button
+    document.body.innerHTML += '<div id="back2Top" style="width: 30px; height: 30px; position: fixed; bottom: 10px; right: 10px; background-color: #eee; display: none;"><img src="http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico" width="25" height="25" alt="Back To Top"/></div>';
+    //onlick: scroll to top, hide the button
+    $("#back2Top").click(function() {
+        $("body").animate({scrollTop: 0}, "slow");
+        topOfThePage = true;
+        $(this).hide();
+    });
+    //if scrolled down, show the button
+    window.addEventListener("scroll", function(evt) {
+        if(topOfThePage) {
+            $("#back2Top").show();
+            topOfThePage = false;
+        }
+    });
+})();
