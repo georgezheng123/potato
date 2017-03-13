@@ -12,7 +12,7 @@ function showHorizontalBar() {
         var scrollToElement = "scrollTo-" + departments[d];
         td.setAttribute('data-scrollTo',scrollToElement);
         td.setAttribute('class','scrollMe');
-        td.innerHTML = formatName(departments[d]);
+        td.innerHTML = formatName(departments[d]) ;
     }
 }
 
