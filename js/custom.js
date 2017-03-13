@@ -24,7 +24,7 @@ function showDepartmentPreviews(info) {
         deptName= '<div id="headings" onclick="window.open("http://google.pl", "_blank");">' + formatName(dept) + '</div>' //some json stuff
         line = '<div id = "line"></div>';
         if (info[dept].quote != null) {
-            deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<div class = "desc" style = "float:right;">&mdash; ' + info[dept].person + '</div>'; // some json stuff
+            deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<div class="author">&mdash; ' + info[dept].person + '</div>'; // some json stuff
         } else {
             deptQuote = "";
         }

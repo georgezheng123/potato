@@ -87,8 +87,8 @@ table, th, td {
 
 .department-previews table {
     display: block;
-    margin: 50px 0px;
     border: none;
+    border-spacing: 75px;
 }
 
 .department-previews tr td  {
@@ -108,16 +108,33 @@ table, th, td {
 }
 
 .department-previews table tr .smaller img {
-    width: 100%;
+    width: 350px;
     border: none;
+}
+
+@media (max-width: 1080px) {
+    .department-previews {
+        width: 100%;
+    }
+
+    .department-previews table {
+        border-spacing: 25px 35px;
+    }
+
+    .department-previews table tr .smaller {
+        vertical-align: middle;
+    }
 }
 
 .desc {
     font-family: adobe_caslon_reg, sans-serif;
     border:none;
     text-align: left;
-    color: #666;
     width: 94%;
+}
+
+.author {
+    color: #666;
 }
 
 #headings {
@@ -156,7 +173,6 @@ blockquote {
     text-align: justify;
     font-style: italic;
     /*border-left: 7px solid gray;*/
-    line-height: 15px;
 }
 
 blockquote::before {
