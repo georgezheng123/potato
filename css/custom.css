@@ -10,10 +10,73 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: georgia_reg;
+    src: url(../fonts/georgia_reg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: georgia_bld;
+    src: url(../fonts/georgia_bld.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: adobe_caslon_reg;
+    src: url(../fonts/adobe_caslon_reg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: neutra_light;
+    src: url(../fonts/neutra-text_tf_light_demi.ttf);
+    font-weight: normal;
+}
+
 /*----- INDEX 2 -----*/
 
+.dept-container table,
+.dept-container table tr,
+.dept-container table tr td {
+    border: 1px solid black;
+}
 
+.dept-container table {
+    display: block;
+    width: 70%;
+}
 
+.dept-container table tr td {
+    margin: 0px 15px;
+}
+
+.dept-container table tr td.info-section {
+    width: 66%;
+}
+
+.dept-container table tr td.img-seciton {
+    width: 34%;
+}
+
+.dept-container table tr td h3 {
+    font-family: neutra_light;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.dept-container table tr td h5 {
+    font-family: neutra_light;
+    margin: 0 0 10px 0;
+    font-size: 17px;
+    color: #232323;
+}
+
+.dept-container table tr td .dept-desc {
+    font-family: adobe_caslon_reg;
+    margin: 0px;
+    font-size: 20px;
+}
 
 
 /*----- GENERAL -----*/
