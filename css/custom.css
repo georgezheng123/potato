@@ -116,7 +116,8 @@ table, th, td {
     font-family: adobe_caslon_reg, sans-serif;
     border:none;
     text-align: left;
-    width:70%;
+    color: #666;
+    width: 94%;
 }
 
 #headings {
@@ -139,31 +140,38 @@ table, th, td {
     margin-bottom: 10px;
 }
 
+.tab {
+    margin-left: 4em;
+}
+
 blockquote {
-    float:left;
-    font-family: 'Open Sans', sans-serif;
-    display:inline-block;
+    display:block;
+    padding: 15px 20px 15px 45px;
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
     font-style: italic;
-    border-left: 7px solid gray;
-    padding-left: 15px;
-    line-height: 30px;
-    text-align: left;
+    /*border-left: 7px solid gray;*/
+    line-height: 15px;
 }
 
 blockquote::before {
-    /*note: open quote looks like a close quote but idk how to fix this :(( */
-    content:"\201C";
-    font-family: 'Catamaran', sans-serif;
-    font-size: 50px;
-    vertical-align: -0.3em;
-    padding-right: 10px;
+    content: "\201C";
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top:5px;
 }
 
 blockquote::after {
-    content:"\201D";
-    font-family: 'Catamaran', sans-serif;
-    font-size: 50px;
-    vertical-align: -0.4em;
+    content: "";
 }
 
 /*----- EDITOR PICKS -----*/
