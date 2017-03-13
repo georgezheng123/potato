@@ -1,4 +1,4 @@
-var filename='https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/9ac978b62c24530ac8790b894bb759e7939e200b/data.json?token=AOn-KJAKqZf7CGBwQTo_bDRhd4fMR4K4ks5Yz2eywA%3D%3D';
+var filename='https://georgezheng123.github.io/Spec_Recruit_S2017/data.json';
 var info;
 
 var departments = [ 'ae', 'art', 'business', 'copy', 'features', 'humor', 'layout', 'news', 'opinions', 'photos', 'sports', 'web' ];
