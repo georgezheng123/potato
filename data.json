@@ -1,102 +1,109 @@
 {
     "ae": {
-        "quote": null,
-        "person": null,
-        "photo": "http://www.stuyspec.com/wp-content/uploads/AE-Breakfast-Cart-by-Xin-Italie-e1475195408649.jpg",
+        "quote": "AE is really cool.",
+        "person": "Aristotle",
+        "testimonial": "The Arts and Entertainment section of the Spectator is responsible for covering all events pertaining to the visual and performative arts, both in and out of Stuyvesant. This includes reviews of new albums, new movies, new shows, etc., as well as "thinkpieces" on cultural happenings across the city. Each issue features an events calendar describing different things happening around the city, as well as a playlist of music for our readers and a crossword puzzle.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "applicaiton": "https://docs.google.com/forms/d/1CDhMpdShfF1RFFFFwsPDmPu0FJVr9yJMTWMasVh9BQU/viewform?edit_requested=true"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://docs.google.com/forms/d/1CDhMpdShfF1RFFFFwsPDmPu0FJVr9yJMTWMasVh9BQU/viewform?edit_requested=true"
     },
     "art": {
         "quote": "Although I’m just a freshman, I feel like I really fit into this artistic community; the people are amazing and everyone is so supportive.",
-        "person": "Alex Lin",
-        "photo": "http://www.stuyspec.com/wp-content/uploads/Issue9_Art_Comic-Yujie-Fu.png",
+        "person": "Alex Lin, Freshman",
+        "testimonial": "It is often difficult to read through dense blocks of text without something to rest your eyes on. In the Art Department, we strive to embellish the newspaper with our unique illustrations, each perfectly suited for its article. In a school where artistic abilities are not seen as priority, you can easily find your niche as an artist for the Spectator, where your art will be displayed for all of its readers to admire. The limits of your creativity have no bounds; you can flaunt your skills in thematic spreads, comics, or Caption Contest illustrations! We encourage the use of all media!",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "description": "It is often difficult to read through dense blocks of text without something to rest your eyes on. In the Art Department, we strive to embellish the newspaper with our unique illustrations, each perfectly suited for its article. In a school where artistic abilities are not seen as priority, you can easily find your niche as an artist for the Spectator, where your art will be displayed for all of its readers to admire. The limits of your creativity have no bounds; you can flaunt your skills in thematic spreads, comics, or Caption Contest illustrations! We encourage the use of all media!"
+        "email": "coolBeans2000@stuyspec.com", 
+        "application":"https://docs.google.com/forms/d/e/1FAIpQLSeyRITwonAznD4gO5nA_27DHpOQwmsI7ODrPfDqqoKbbKfWGA/viewform"
     },
     "business": {
-        "quote": null,
-        "person": null,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "quote": "Business is really cool.",
+        "person": "Aristotle",
+        "testimonial": "The Business Department is responsible for raising 100% of the funds necessary to uphold the production of The Spectator. We receive no money from Stuyvesant and take pride in being financially independent from the school. Not only do our staff members get the opportunity to raise tens of thousands of dollars singlehandedly through the selling of advertisements, they learn valuable and applicable skills in the process. Our department helps you hone your networking, communication, and negotiation skills and trains you to think logistically and professionally. We are the only department of The Spectator that allows you to work with people outside of Stuyvesant, so this means you'll be out there in the real business world, making real money, as a high school student. Not many people get this shot. Think about the feeling you'll get when you secure one of many, huge, $4000 deals, knowing it doesn't only better our department, but the entire paper and its legacy. It's pretty great.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "application": "https://stuyspec.recruiterbox.com/jobs/fk0mpjc/"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://stuyspec.recruiterbox.com/jobs/fk0mpjc/"
     },
     "copy": {
-        "quote": "Being a part of Spec Copy is incredibly satisfying! I've always been a grammar nerd, so being able to use that to my advantage to help out The Spectator is absolutely a win-win situation. I love that it also means getting to see the various pieces before the final issue is released. We have some really talented writers, and being able to polish their work and contribute to such a great publication is a privilege.",
+        "quote": "Being a part of Spec Copy is incredibly satisfying! I've always been a grammar nerd, so being able to use that to my advantage to help out The Spectator is absolutely a win-win situation. I love that it also means getting to see the various pieces before the final issue is released. We have some really talented writers, and being able to polish their work and contribute to such a great publication is a privilege",
         "person": "Tasfia Bashar, Junior",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "testimonial": "We edit the whole paper for grammatical errors! This department is great if you want to join the paper but don't necessarily want to join a writing department. If you edit the essays of your friends or think you would enjoy doing so, this is the department for you! It is also a great department to join if you like reading, as reading articles is a huge part of the job!",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
+        "email": "coolBeans2000@stuyspec.com",
         "application": "https://docs.google.com/forms/d/e/1FAIpQLSdvIogqDHzcZtF788R-OStaPTq_1WGtRAQGMPHZN2auu4F0pA/viewform?c=0&w=1"
     },
     "features": {
         "quote": "Writing for Features has been one of the most enjoyable parts of my high school experience, as cliche as it sounds. There is nothing sweeter than the sense of accomplishment that comes after writing a dope article.",
         "person": "Asim Kapparova, Junior",
-        "photo": "http://www.stuyspec.com/wp-content/uploads/FEATURES-Student-Actors-Augie2FTravis-by-Chloe-Delfau.jpg",
+        "testimonial": "The best way to describe Features in one word is STORYTELLING. This is our main, essential craft. We write profiles telling the stories of interesting people or communities at Stuyvesant, provide more information and delve deeper into issues that News has covered, uncover information about specific issues at Stuy, and more. We're a very fun, creative department, but we also deal with hardcore investigative journalism that can actually effect change and shock people! If you love writing stories, digging around, and writing some hard-hitting articles, then the Features Department is the place for you.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "description": "The best way to describe Features in one word is STORYTELLING. This is our main, essential craft. We write profiles telling the stories of interesting people or communities at Stuyvesant, provide more information and delve deeper into issues that News has covered, uncover information about specific issues at Stuy, and more. We're a very fun, creative department, but we also deal with hardcore investigative journalism that can actually effect change and shock people! If you love writing stories, digging around, and writing some hard-hitting articles, then the Features Department is the place for you.",
-        "application": "https://docs.google.com/forms/d/e/1FAIpQLSc7K6Gqax4X_0IHyNbFnTFveIY2iXsjVLA-fIuKPS2u0mwbTg/viewform?usp=sf_link"
+        "email": "coolBeans2000@stuyspec.com"
     },
     "humor": {
-        "quote": null,
-        "person": null,
-        "photo": "http://www.stuyspec.com/wp-content/uploads/Photo-Essay-Mr.-Galano-COLOR.jpg",
+        "quote": "Humor is really cool.",
+        "person": "Aristotle",
+        "testimonial": "The humor department is The Spectator’s Onion, not edible but still in print. We’re the only department that can get away with printing libel and slander, as we’re allowed to make up quotes, events, and other facts. In fact, there is only one requirement for articles: they have to be funny.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "application": "https://docs.google.com/forms/d/e/1FAIpQLScfJpOohkelPs2lXJE-flKkSqL4UrnXX84449DwaKZo9qZ2_g/viewform"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://docs.google.com/forms/d/e/1FAIpQLScfJpOohkelPs2lXJE-flKkSqL4UrnXX84449DwaKZo9qZ2_g/viewform"
     },
     "layout": {
-        "quote": null,
-        "person": null,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "quote": "Layout is really cool.",
+        "person": "Aristotle",
+        "testimonial": "A good publication should interest readers before they even pick it up and read it; the Layout department does just that! We are the last department that works with the newspaper and are responsible for formatting all of the articles, photos, art, etc. We make sure that the paper is aesthetically appealing and easy to read. After all, no one wants to read ugly and confusing blocks of text. With creativity and a certain magic called the InDesign, we present to you what you know as the Spectator. As a staff member, you will be taught how to use InDesign and asked to critique the formatting of each issue as it is released.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "description": "A good publication should interest readers before they even pick it up and read it; the Layout department does just that! We are the last department that works with the newspaper and are responsible for formatting all of the articles, photos, art, etc. We make sure that the paper is aesthetically appealing and easy to read. After all, no one wants to read ugly and confusing blocks of text. With creativity and a certain magic called the InDesign, we present to you what you know as the Spectator.\nAs a staff member, you will be taught how to use InDesign and asked to critique the formatting of each issue as it is released.",
-        "application": "https://goo.gl/forms/mfMNPD4xKPceNepR2"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://goo.gl/forms/mfMNPD4xKPceNepR2"
     },
     "news": {
-        "quote": "The News Department is one of my favorite parts about Stuy. We go to such a big school and sometimes, it becomes overwhelming. Being able to interview different staff and people from other grades, who you may never otherwise have met, makes you realize that Stuy isn't always intimidating as it may seem if you can find something that makes you happy.",
+        "quote": "The News Department is one of my favorite parts about Stuy. We go to such a big school and sometimes, it becomes overwhelming. Being able to interview different staff and people from other grades, who you may never otherwise have met, makes you realize that Stuy isn't always intimidating as it may seem if you can find something that makes you happy",
         "person": "Sasha Spajic, Sophomore",
-        "photo": "http://www.stuyspec.com/wp-content/uploads/Mr.-Sandler-Award-Ceremony-by-Abigail-Edwards-COLOR.jpg",
+        "testimonial": "News covers all the latest happenings at Stuy from new school policies to visiting speakers to cheating scandals. Newswriters learn how to cover pieces ranging from breaking news to long term investigations. Writers will have the opportunity to interview students, teachers, and administrators to gather information for objective news pieces—and sometimes even get their byline on the front page!",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "application": "https://docs.google.com/forms/d/e/1FAIpQLSerzJDbe4FJPoi1fx2r2WCEUIiV7YyGZhvn7OWU5LPDl0yLMQ/viewform?c=0&w=1"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://docs.google.com/forms/d/e/1FAIpQLSerzJDbe4FJPoi1fx2r2WCEUIiV7YyGZhvn7OWU5LPDl0yLMQ/viewform?c=0&w=1"
     },
     "opinions": {
-        "quote": null,
-        "person": null,
-        "photo": "http://www.stuyspec.com/wp-content/uploads/Issue-10_Art_Opinions_MTA-PricesKlaire-Geller.jpg",
+        "quote": "Opinions is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Opinions is the Op-Ed department of The Spectator! This means that we are extremely passionate, well informed about contemporary issues, and capable of forming strong persuasive arguments about our beliefs. This is the department for people who want to learn how to base their idealism in fact, and how to fight for the things they care about with words.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "application": "https://docs.google.com/document/d/1HJicqJ6RGqiZp6nMU3CM3ltB7wGjmgS5t9JN9o-Txms/edit?ts=58c4a136"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://docs.google.com/document/d/1HJicqJ6RGqiZp6nMU3CM3ltB7wGjmgS5t9JN9o-Txms/edit?ts=58c4a136"
     },
     "photo": {
-        "quote": null,
-        "person": null,
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
-        "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "description": "Photo is dedicated to providing interesting and dynamic photographs to support the articles in the Spectator. Typical assignments include portraits of students and teachers, photos at school events – including sports games – and shots of fun things around the city as well. Photography is not just support for articles though, it is journalism in its own right. Photo department members regularly contribute to or spearhead photo essay projects.\nThe Spectator Photo department only hosts a few meetings each term, so the time commitment is minimal. Photo assignments are completed on the photographer’s own schedule, so long as they are in by department deadlines. This department is a good fit for anyone interested in photography, whether you’re just starting out, or you’re an expert looking for a place to practice and refine your skills.",
-        "application": "https://goo.gl/forms/UzFfXVRLCLd2vzQC2"
+        "quote": "Photo is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Photo is dedicated to providing interesting and dynamic photographs to support the articles in the Spectator. Our photographers take portraits of students and teachers, photos at school events, and pictures of fun things around he city as well. Along with taking photos to accompany articles in the spectator, the photo department also contributes photo essays to the paper.",
+        "photo": "http://www.stuyspec.com/sports/the-psal-fall-2016-season-in-photographs",
+        "editorPick": "",
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://goo.gl/forms/UzFfXVRLCLd2vzQC2"
     },
     "sports": {
-        "quote": null,
-        "person": null,
-        "photo": "http://www.stuyspec.com/wp-content/uploads/Girls-Lacrosse-Courtesy-of-Edison-Shi.jpg",
+        "quote": "Sports is really cool.",
+        "person": "Aristotle",
+        "testimonial": "Sports is a great department for those who love any or every aspect of sports and sports culture! The majority of our coverage focuses on own sports teams and tracking their progress through the season, but we also write on professional sports and sports issues! We are a group of people who love talking, writing, and following sports.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "application": "https://docs.google.com/forms/d/1x-lhV8KaxgKsCz5HutN3BSE9Nt9ZYhkfRrAM6lU2ui8/viewform?edit_requested=true"
+        "email": "coolBeans2000@stuyspec.com",
+        "application":"https://docs.google.com/forms/d/1x-lhV8KaxgKsCz5HutN3BSE9Nt9ZYhkfRrAM6lU2ui8/viewform?edit_requested=true"
     },
     "web": {
         "quote": "Having the privilege of being a part of the Web Department was the highlight of my year—not only did I learn more about different technologies in web development and the newest frontiers of programming, but I also became friends with an amazing group of people!",
         "person": "George Zheng, Junior",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1200px-Glazed-Donut.jpg",
+        "testimonial": " The Web department is responsible for designing and updating The Spectator's website: www.stuyspec.com. This is the perfect department for computer programming enthusiasts who want to help The Spectator enter the frontier of online journalism.",
+        "photo": "",
         "editorPick": "https://docs.google.com/document/d/1bRjX3yb4hiysiVBg4DHKu0REp0X9ttjush_Yik3AuR0/edit?usp=sharing",
-        "email": null,
-        "description": "The Web department is responsible for designing and updating The Spectator's website: www.stuyspec.com. This is the perfect department for computer programming enthusiasts who want to help The Spectator enter the frontier of online journalism.",
+        "email": "coolBeans2000@stuyspec.com",
         "application": "https://docs.google.com/forms/d/e/1FAIpQLSf4crXgUtJhYQaIEc9HToJvWhgBvoJ52fRd2XfXvRFAri45Tw/viewform?usp=sf_link"
     }
 }
