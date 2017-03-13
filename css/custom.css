@@ -23,7 +23,7 @@ table, th, td {
     display: inline-block;
     text-align: center;
     margin: 0 4px;
-    padding: 5px 10px;
+    padding: 0px 0px;
     border: none;
     text-decoration: underline;
     color: #000;
@@ -91,7 +91,7 @@ table, th, td {
     #line {
       height:10px;
       background-color:black;
-      border-radius: 8px;
+      border-radius: 0spx;
       margin-bottom: 10px;
     }
 
