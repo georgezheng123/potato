@@ -178,37 +178,10 @@ blockquote::after {
     width: 40%;
 }
 
-.email {
-    font-family: "Times New Roman";
-}
-
-.general {
-    color: #444;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-.general:hover {
-    color: #888;
-}
-
-.contact-container table,
-.contact-container table td {
-     border: 1px solid #000;
-     text-transform: uppercase;
-     padding: 1px;
-     transition-duration: .2s;
-     color: #000;
-}
-
-.contact-container td {
-    padding: 4px !important;
-}
-
- .contact-container td:hover {
-     background: #000;
-     cursor: pointer;
-     color: #fff;
+ .contact-header {
+     font-family: "avenir_next";
  }
 
- .conta
+ .contact-content {
+     font-family: "adobe_caslon_reg";
+ }
