@@ -123,6 +123,11 @@ table, th, td {
     text-align: left;
 }
 
+#headings:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 #line {
     height:5px;
     background-color:black;

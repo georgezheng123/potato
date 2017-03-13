@@ -1,4 +1,4 @@
-var filename = 'https://raw.githubusercontent.com/georgezheng123/Spec_Recruit_S2017/master/data.json?token=AOn-KL7CEumu-1cOxjgHkh1o79M_e7M_ks5YzvkZwA%3D%3D';
+var filename = '../data.json';
 
 var info;
 
@@ -21,10 +21,18 @@ function showDepartmentPreviews(info) {
     var departmentPreviews = document.getElementsByClassName("department-previews")[0];
     var largerFirst = true;
     for (var dept in info) {
-        deptName= '<div id = "headings">' + formatName(dept) + '</div>' //some json stuff
+        deptName= '<div id = "headings" onclick="window.open("http://google.pl", "_blank");">' + formatName(dept) + '</div>' //some json stuff
         line = '<div id = "line"></div>';
-        deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<br><div class = "desc" style = "float:right;">&mdash; ' + info[dept].person + '</div>'; // some json stuff
-        deptTestimonial = '<div class = "desc">' + info[dept].testimonial + "</div>"; // some json stuff
+        if (info[dept].quote != null) {
+            deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<br><div class = "desc" style = "float:right;">&mdash; ' + info[dept].person + '</div>'; // some json stuff
+        } else {
+            deptQuote = "";
+        }
+        if (info[dept].testimonial != null) {
+            deptTestimonial = '<div class = "desc">' + info[dept].testimonial + "</div>"; // some json stuff
+        } else {
+            deptTestimonial ="";
+        }
         deptPhoto = '<img src="' + info[dept].photo + '">';
         var table = document.createElement('table');
         table.setAttribute('id',"scrollTo-" + dept);
@@ -88,7 +96,7 @@ function showContactDetails(info) {
 
 function formatName(dept) {
     if (dept === 'ae') {
-        return 'Arts&amp;Entertainment';
+        return 'A&amp;E';
     } else {
         return dept.charAt(0).toUpperCase() + dept.slice(1);
     }
