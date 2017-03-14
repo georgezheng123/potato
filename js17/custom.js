@@ -108,7 +108,7 @@ function formatName(dept) {
     //add the scroll-top button
     document.body.innerHTML += `
         <div id="back2Top">
-            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </div>`;
     //onlick: scroll to top, hide the button
     $("#back2Top").click(function() {

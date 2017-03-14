@@ -24,7 +24,7 @@
 
 ul.navbar {
     display: block;
-    height: 50px;
+    height: 89px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +32,14 @@ ul.navbar {
 
 .navbar li {
     float: right;
+    border-right: 1px solid black;
+    padding: 0 15px;
+}
 
+
+.navbar li:first-child,
+.navbar li:nth-child(2) {
+    border-right: none;
 }
 
 .navbar li a {
@@ -45,7 +52,7 @@ ul.navbar {
 }
 
 li a:hover:not(.active) {
-    color:
+    color: #898989;
 }
 
 .active {

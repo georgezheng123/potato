@@ -17,6 +17,12 @@
 }
 
 @font-face {
+    font-family: adobe_caslon_bld;
+    src: url(../fonts17/adobe_caslon_bld.ttf);
+    font-weight: normal;
+}
+
+@font-face {
     font-family: avenir_next;
     src: url(../fonts17/avenir_next.ttc);
     font-weight: bold;
@@ -94,6 +100,11 @@ table, th, td {
     bottom: 10px;
     right: 10px;
     color: #000;
+    transition-duration: .3s;
+}
+
+#back2Top:hover {
+    cursor: pointer;
 }
 
 /*----- INDEX.HTML -----*/
@@ -120,7 +131,12 @@ table, th, td {
 
 .home-content p {
     display: inline-block;
-    margin: 0px;
+    margin: 0;
+}
+
+.home-content p:first-child {
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .img-container-lg {
