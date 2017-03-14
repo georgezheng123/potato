@@ -1,6 +1,6 @@
 <?php 
     if(isset($_POST['send'])) {
-        $to =      "max.zlotskiy@gmail.com";
+        $to =      "jkao1@stuy.edu";
         $subject = "Spectator Contact Form";
         $from =     strip_tags(trim($_POST["from"]));
         $name =     htmlentities(trim($_POST["sender"]));
