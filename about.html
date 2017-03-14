@@ -37,8 +37,15 @@
         <table class="horizontal-bar">
             <tr class="horizontal-bar-row"></tr>
         </table>
+        <br><br>
+        
+        <center class="department-previews"></center>
+    </div>
 
-        <script>
+    <script src="js17/custom.js"></script>
+    <script>
+        showHorizontalBar();
+        $.getJSON(filename, showDepartmentPreviews);
         $(document).ready(function() {
             $(".scrollMe").click(function() {
                 console.log(3);
@@ -49,17 +56,6 @@
                     'slow');
             });
         });
-        </script>
-        &nbsp;&nbsp;&nbsp;
-        <br><br>
-
-        <center class="department-previews"></center>
-    </div>
-
-    <script src="js17/custom.js"></script>
-    <script>
-        showHorizontalBar();
-        $.getJSON(filename, showDepartmentPreviews);
     </script>
 
 </body>
