@@ -40,6 +40,12 @@ table, th, td {
     margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+    .h3ome-container {
+        width: 100%;
+    }
+}
+
 .horizontal-bar {
     width: 100%;
     border: none;
@@ -135,7 +141,7 @@ table, th, td {
     margin: 0;
 }
 
-.home-content p:first-child {
+.home-content #dates {
     margin-bottom: 15px;
     font-weight: bold;
 }
