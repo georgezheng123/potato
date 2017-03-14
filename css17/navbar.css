@@ -22,13 +22,32 @@
     font-weight: bold;
 }
 
-.nav-link {
-    color: #000;
-    font-family: brandon_bld;
-    font-size: 16px;
-    margin: 8px;
+ul.navbar {
+    display: block;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.bigger {
-    font-size: 30px;
+.navbar li {
+    float: right;
+
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    font-family: brandon_bld;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color:
+}
+
+.active {
+    background-color: #4CAF50;
 }

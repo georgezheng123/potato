@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css17/custom.css">
     <link rel="stylesheet" type="text/css" href="css17/template.css">
     <link rel="stylesheet" type="text/css" href="css17/block-revealer.css">
+
     <!--loads the header and footer-->
+    <script src="js17/jquery.min.js"></script>
     <script>
     document.documentElement.className = 'js';
         $(function(){
@@ -16,12 +18,11 @@
         });
     </script>
 </head>
-
+<!--button for "GO TO APPS" (the stylish table border one)-->
 <body>
 
     <div id="navbar"></div>
-    <div id="rev-1" class="content__title__inner">Self-imposed</div><br/>
-    <div id="rev-2" class="content__title__inner">limitations</div>
+
     <div class="home-container">
 
         <h1 class="home-title">The Stuyvesant Spectator</h1>
@@ -30,11 +31,22 @@
         <center>
 
             <img class="center-pic" src="http://www.stuyspec.com/wp-content/uploads/centertwo.jpg" alt="Center pic" height="300" width="420">
-            <p>Recruitments are <span class="red">3/16</span> and <span class="red">3/17</span> in the library after 10th.</p>
+
 
             <div class="home-content">
                 <p>
-                    <span class="tab"></span>The Spectator is one of Stuyvesant's most prestigious publications, but it's much more than just an extracurricular. Spec is a family, even a way of life. There is something for everyone, whether you're a reporter, a critic, a comedian, an artist, a photographer, a grammar nerd, an inDesign freak or a monkey suit in the making. If you would like to learn more about each of our departments, you have come to the right place!
+                    Recruitments are
+                    <a id="rev-1" class="content__title__inner accented-red link">3/16</a>
+                    and
+                    <a id="rev-2" class="content__title__inner accented-red">3/17</a>
+                    in the library after 10th.
+                </p>
+                <p>
+                    <span class="tab"></span>The Spectator is one of Stuyvesant's most prestigious publications,
+                    but it's much more than just an extracurricular. Spec is a family, even a way of life.
+                    There is something for everyone, whether you're a reporter, a critic, a comedian, an artist,
+                    a photographer, a grammar nerd, an inDesign freak or a monkey suit in the making.
+                    If you would like to learn more about each of our departments, you have come to the right place!
                 </p>
             </div>
 
@@ -42,7 +54,6 @@
 
     </div>
 
-    <script src="js17/jquery.min.js"></script>
     <script src="js17/custom.js"></script>
     <script>
         //$.getJSON(filename, showContactDetails);
@@ -53,6 +64,8 @@
     <script>
 		(function() {
 
+            red = '#ff0000';
+
             setTimeout(init, 0);
 			function init() {
 				document.body.classList.remove('loading');
@@ -61,7 +74,7 @@
 
 				var rev1 = new RevealFx(document.querySelector('#rev-1'), {
 					revealSettings : {
-						bgcolor: '#7f40f1',
+						bgcolor: red,
 						onCover: function(contentEl, revealerEl) {
 							contentEl.style.opacity = 1;
 						}
@@ -71,7 +84,7 @@
 
 				var rev2 = new RevealFx(document.querySelector('#rev-2'), {
 					revealSettings : {
-						bgcolor: '#fcf652',
+						bgcolor: red,
 						delay: 250,
 						onCover: function(contentEl, revealerEl) {
 							contentEl.style.opacity = 1;

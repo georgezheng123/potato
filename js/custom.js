@@ -113,20 +113,21 @@ function formatName(dept) {
 
 /*Run on document ready*/
 (function() {
-    var topOfThePage = true;
     //add the scroll-top button
-    document.body.innerHTML += '<div id="back2Top" style="width: 40px; height: 40px; position: fixed; bottom: 10px; right: 10px; background-color: #eee; display: none;"><img src="http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico" width="40" height="40" alt="Back To Top"/></div>';
+    document.body.innerHTML += `
+        <div id="back2Top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>`;
     //onlick: scroll to top, hide the button
     $("#back2Top").click(function() {
         $("body").animate({scrollTop: 0}, "slow");
-        topOfThePage = true;
-        $(this).hide();
     });
     //if scrolled down, show the button
     window.addEventListener("scroll", function(evt) {
-        if(topOfThePage) {
+        if(document.body. === 500) {
+            $("#back2Top").hide();
+        } else {
             $("#back2Top").show();
-            topOfThePage = false;
         }
     });
 })();

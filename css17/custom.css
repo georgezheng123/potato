@@ -75,7 +75,53 @@ table, th, td {
     height: auto;
 }
 
+.accented-red {
+    display: block;
+    color: red;
+    text-decoration: underline;
+}
+
+.accented-red:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#back2Top {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #000;
+}
+
 /*----- INDEX.HTML -----*/
+
+.home-container {
+    display: block;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+    width: 40%;
+}
+
+ .home-title {
+     font-family: adobe_caslon_reg;
+     text-align: center;
+ }
+
+ .home-container .center-pic {
+     margin: 20px;
+ }
+
+ .home-content {
+     font-family: adobe_caslon_reg;
+ }
+
+.home-content p {
+    display: inline-block;
+    margin: 0px;
+}
 
 .img-container-lg {
     display: block;

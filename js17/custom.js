@@ -105,25 +105,21 @@ function formatName(dept) {
 
 /*Run on document ready*/
 (function() {
-    var topOfThePage = true;
-    //add the scroll-top button to the page, but its invisible for now
-    //former image: http://www.iconarchive.com/download/i86026/graphicloads/100-flat-2/arrow-up.ico
-    document.body.innerHTML += '<div id="back2Top" style="width: 64px; height: 64px; position: fixed; bottom: 40px; right: 20px; background-color: #eee; border-radius: 20px; display: none;"><img src="img/up_arrow.png" width="64" height="64" alt="Back To Top"/></div>';
+    //add the scroll-top button
+    document.body.innerHTML += `
+        <div id="back2Top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>`;
     //onlick: scroll to top, hide the button
     $("#back2Top").click(function() {
-        $("body").animate({scrollTop: 0}, "slow", function() {
-          topOfThePage = true;
-          $("#back2Top").hide();
-        });
+        $("body").animate({scrollTop: 0}, "slow");
     });
     //if scrolled down, show the button
     window.addEventListener("scroll", function(evt) {
-        if(topOfThePage) {
+        if( scrollTop <= 500 ) {
+            $("#back2Top").hide();
+        } else {
             $("#back2Top").show();
-            topOfThePage = false;
-        }
-        if($("body").scrollTop() < 20) {
-            topOfThePage = true;
         }
     });
 })();
