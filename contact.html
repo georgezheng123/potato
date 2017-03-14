@@ -5,6 +5,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" type="text/css" href="css17/custom.css">
     <link rel="stylesheet" type="text/css" href="css17/template.css">
+    <link rel="stylesheet" type="text/css" href="css17/contact.css">
 
     <!--loads the header and fotter-->
     <script src="js17/jquery.min.js"></script>
@@ -32,6 +33,22 @@
         <p>
 
         </p>
+        <form action="email.php" method="post">
+          <table id="contact_form">
+            <tr>
+              <td><label for="from">Your email:*</label></td>
+              <td><input type="text" name="from"></td>
+            </tr>
+            <tr>
+              <td><label for="sender">Name:*</label></td>
+              <td><input type="text" name="sender"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><textarea name="message" rows="10" cols="50" placeholder="What would you like to tell us?"></textarea></td>
+            </tr>
+          </table>
+          <input type="submit" name="send">
+        </form>
         <br>
         <a class="email general"
            href="mailto:anneandmatteo@gmail.com">

@@ -1,0 +1,13 @@
+#contact_form, #contact_form td {
+    border: none;
+    padding: 5px;
+}
+#contact_form {
+    margin: 10px;
+}
+#contact_form td:first-child {
+    width: 100px;
+}
+#contact_form input {
+    width: 100%;
+}
