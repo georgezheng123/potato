@@ -1,44 +1,62 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <title>Contact Us</title>
+    <title>Spectator Recruitments</title>
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/template.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Catamaran" rel="stylesheet">
     <!--loads the header and fotter-->
     <script src="js/jquery.min.js"></script>
     <script>
     $(function(){
-      $("#navbar").load("navbar.html");
-      $("#footer").load("footer.html");
+        $("#navbar").load("navbar.html");
+        $("#footer").load("footer.html");
     });
     </script>
 
 </head>
 
 <body>
-    <div id="navbar"></div>
-<!--todo: change custom.js to make the emails just links-->
-    <div class="contact-container">
-      <h1 class="contact-header">The Stuyvesant Spectator</h1>
-      <hr>
-      <figure>
-            <center><img src="http://www.stuyspec.com/wp-content/uploads/centertwo.jpg" alt="Center pic" height="300" width="420"></center>  
-            <center><figcaption><font size="+1"><strong>Recruitments are <font color="red">3/16</font> and <font color="red">3/17</font> in the library after 10th.</strong></font></figcaption><center>
-</figure> 
-      <div class="contact-content">
-        <p>
-            The Spectator is one of Stuyvesant's most prestigious publications, but it's much more than just an extracurricular. Spec is a family, even a way of life. There is something for everyone, whether you're a reporter, a critic, a comedian, an artist, a photographer, a grammar nerd, an inDesign freak or a monkey suit in the making. If you would like to learn more about each of our departments, you have come to the right place!
-        </p>
-        
 
-      </div>
+    <div class="content">
+
+        <div id="navbar"></div>
+        <div class="img-container-lg">
+            <center><h1>JOIN US</h1></center>
+            <center><img src="http://www.stuyspec.com/wp-content/uploads/aepic.jpg" alt="Center pic"></center>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        &nbsp
+        <table class="horizontal-bar">
+            <tr class="horizontal-bar-row"></tr>
+        </table>
+
+        <script>
+        $(document).ready(function() {
+            $(".scrollMe").click(function() {
+                console.log(3);
+                var idToScroll = "#" + $(this).attr('data-scrollTo');
+                console.log(idToScroll);
+                $('html,body').animate({
+                    scrollTop: $( idToScroll ).offset().top},
+                    'slow');
+            });
+        });
+        </script>
+        &nbsp;&nbsp;&nbsp;
+        <br><br>
+
+        <center class="department-previews"></center>
     </div>
 
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/custom.js"></script>
     <script>
-    //$.getJSON(filename, showContactDetails);
+    showHorizontalBar();
+    $.getJSON(filename, showDepartmentPreviews);
+
     </script>
 </body>
+
 </html>
