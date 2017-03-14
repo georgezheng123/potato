@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <title>Contact Us</title>
+    <title>The Spectator Recruitments</title>
     <link rel="stylesheet" type="text/css" href="css17/custom.css">
     <link rel="stylesheet" type="text/css" href="css17/template.css">
-
-    <!--loads the header and fotter-->
-    <script src="js17/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css17/block-revealer.css">
+    <!--loads the header and footer-->
     <script>
-    $(function(){
-      $("#navbar").load("navbar.html");
-      $("#footer").load("footer.html");
-    });
+    document.documentElement.className = 'js';
+        $(function(){
+          $("#navbar").load("navbar.html");
+          $("#footer").load("footer.html");
+        });
     </script>
-
 </head>
 
 <body>
-    <div id="navbar"></div>
-<!--todo: change custom.js to make the emails just links-->
-    <div class="contact-container">
-      <h1 class="contact-header">The Stuyvesant Spectator</h1>
-      <hr>
-      <figure>
-            <center><img src="http://www.stuyspec.com/wp-content/uploads/centertwo.jpg" alt="Center pic" height="300" width="420"></center>  
-            <center><figcaption><font size="+1"><strong>Recruitments are <font color="red">3/16</font> and <font color="red">3/17</font> in the library after 10th.</strong></font></figcaption><center>
-</figure> 
-      <div class="contact-content">
-        <p>
-            The Spectator is one of Stuyvesant's most prestigious publications, but it's much more than just an extracurricular. Spec is a family, even a way of life. There is something for everyone, whether you're a reporter, a critic, a comedian, an artist, a photographer, a grammar nerd, an inDesign freak or a monkey suit in the making. If you would like to learn more about each of our departments, you have come to the right place!
-        </p>
-        
 
-      </div>
+    <div id="navbar"></div>
+    <div id="rev-1" class="content__title__inner">Self-imposed</div><br/>
+    <div id="rev-2" class="content__title__inner">limitations</div>
+    <div class="home-container">
+
+        <h1 class="home-title">The Stuyvesant Spectator</h1>
+        <hr>
+
+        <center>
+
+            <img class="center-pic" src="http://www.stuyspec.com/wp-content/uploads/centertwo.jpg" alt="Center pic" height="300" width="420">
+            <p>Recruitments are <span class="red">3/16</span> and <span class="red">3/17</span> in the library after 10th.</p>
+
+            <div class="home-content">
+                <p>
+                    <span class="tab"></span>The Spectator is one of Stuyvesant's most prestigious publications, but it's much more than just an extracurricular. Spec is a family, even a way of life. There is something for everyone, whether you're a reporter, a critic, a comedian, an artist, a photographer, a grammar nerd, an inDesign freak or a monkey suit in the making. If you would like to learn more about each of our departments, you have come to the right place!
+                </p>
+            </div>
+
+        </center>
+
     </div>
 
-    <script type="text/javascript" src="js17/custom.js"></script>
+    <script src="js17/jquery.min.js"></script>
+    <script src="js17/custom.js"></script>
     <script>
-    //$.getJSON(filename, showContactDetails);
+        //$.getJSON(filename, showContactDetails);
     </script>
+    <script src="js17/anime.min.js"></script>
+	<script src="js17/scrollMonitor.js"></script>
+	<script src="js17/block-revealer.js"></script>
+    <script>
+		(function() {
+
+            setTimeout(init, 0);
+			function init() {
+				document.body.classList.remove('loading');
+
+				//************************ Example 1 - reveal on load ********************************
+
+				var rev1 = new RevealFx(document.querySelector('#rev-1'), {
+					revealSettings : {
+						bgcolor: '#7f40f1',
+						onCover: function(contentEl, revealerEl) {
+							contentEl.style.opacity = 1;
+						}
+					}
+				});
+				rev1.reveal();
+
+				var rev2 = new RevealFx(document.querySelector('#rev-2'), {
+					revealSettings : {
+						bgcolor: '#fcf652',
+						delay: 250,
+						onCover: function(contentEl, revealerEl) {
+							contentEl.style.opacity = 1;
+						}
+					}
+				});
+				rev2.reveal();
+			}
+		})();
+	</script>
 </body>
+
 </html>
