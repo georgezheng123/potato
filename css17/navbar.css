@@ -1,24 +1,24 @@
 @font-face {
     font-family: brandon_reg;
-    src: url(../fonts/Brandon_reg.otf);
+    src: url(../fonts17/Brandon_reg.otf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: brandon_bld;
-    src: url(../fonts/Brandon_bld.otf);
+    src: url(../fonts17/Brandon_bld.otf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: adobe_caslon_reg;
-    src: url(../fonts/adobe_caslon_reg.ttf);
+    src: url(../fonts17/adobe_caslon_reg.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: avenir_next;
-    src: url(../fonts/avenir_next.ttc);
+    src: url(../fonts17/avenir_next.ttc);
     font-weight: bold;
 }
 
