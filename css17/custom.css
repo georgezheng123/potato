@@ -293,13 +293,13 @@ blockquote::after {
  label.invalid {
     color:  #A70001;
  }
- .contact_form_table, .contact_form_table td {
+ #contact_form_table, #contact_form_table td {
     border: none;
     padding: 5px;
  }
- .contact_form_table td:first-child {
+ #contact_form_table td:first-child {
     width: 80px;
  }
- .contact_form_table input {
+ #contact_form_table input {
     width: 100%;
  }
