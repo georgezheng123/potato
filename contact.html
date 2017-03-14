@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css17/template.css">
     <link rel="stylesheet" type="text/css" href="css17/contact.css">
 
+    <style type="text/css">
+      label.invalid {
+        color: #A70001;
+      }
+    </style>
+
     <!--loads the header and fotter-->
     <script src="js17/jquery.min.js"></script>
     <script>
@@ -33,21 +39,21 @@
         <p>
 
         </p>
-        <form action="email.php" method="post">
+        <form action="email_form.php" method="post" id="email_form">
           <table id="contact_form">
             <tr>
               <td><label for="from">Your email:*</label></td>
-              <td><input type="text" name="from"></td>
+              <td><input type="email" name="from"></td>
             </tr>
             <tr>
-              <td><label for="sender">Name:*</label></td>
+              <td><label for="sender">Your name:*</label></td>
               <td><input type="text" name="sender"></td>
             </tr>
             <tr>
-              <td colspan="2"><textarea name="message" rows="10" cols="50" placeholder="What would you like to tell us?"></textarea></td>
+              <td colspan="2"><textarea name="message" rows="10" cols="50" placeholder="What would you like to tell us?"></textarea><br></td>
             </tr>
           </table>
-          <input type="submit" name="send">
+          <input type="submit" name="send" value="send">
         </form>
         <br>
         <a class="email general"
@@ -70,8 +76,36 @@
     </div>
 
     <script type="text/javascript" src="js17/custom.js"></script>
+    <script type="text/javascript" src="js17/jquery.validate.min.js"></script>
     <script>
     //$.getJSON(filename, showContactDetails);
+        $(document).ready(function() {
+          $("#email_form").validate({
+            errorClass: "invalid",
+            rules: {
+              from: {
+                required: true,
+                email: true
+              },
+              sender: {
+                required: true,
+                minlength: 2
+              },
+              message: {
+                required: true,
+                minlength: 10
+              }
+            },
+            messages: {
+              sender: {
+                minlength: "Please enter a valid name"
+              },
+              message: {
+                minlength: "Your message is too short and could be marked as spam"
+              }
+            }
+          });
+        });
     </script>
 </body>
 </html>
