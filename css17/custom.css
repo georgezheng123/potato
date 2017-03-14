@@ -141,7 +141,7 @@ table, th, td {
     margin: 0;
 }
 
-.home-content p:first-child {
+.home-content #dates {
     margin-bottom: 15px;
     font-weight: bold;
 }
