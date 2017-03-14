@@ -289,3 +289,7 @@ blockquote::after {
  .contact-content {
      font-family: "adobe_caslon_reg";
  }
+
+ label.invalid {
+    color:  #A70001;
+ }
