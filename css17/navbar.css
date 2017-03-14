@@ -47,12 +47,11 @@ ul.navbar {
     color: black;
     font-family: brandon_bld;
     text-align: center;
-    padding: 5px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    color: #898989;
+    color: red;
 }
 
 .active {
