@@ -279,28 +279,83 @@ blockquote::after {
 .contact-container {
     display: block;
     margin: 0 auto;
-    font-family: "Times New Roman";
+    font-family: adobe_caslon_reg;
     width: 40%;
 }
 
  .contact-header {
-     font-family: "avenir_next";
+     font-family: adobe_caslon_reg;
+     text-align: center;
  }
 
  .contact-content {
-     font-family: "adobe_caslon_reg";
+     font-family: adobe_caslon_reg;
+ }
+
+ label {
+     font-size: 16px;
  }
 
  label.invalid {
     color:  #A70001;
  }
- #contact_form_table, #contact_form_table td {
+
+ .contact_form_table,
+ .contact_form_table td {
     border: none;
     padding: 5px;
  }
- #contact_form_table td:first-child {
+
+ .contact_form_table td:first-child {
     width: 80px;
  }
- #contact_form_table input {
-    width: 100%;
+
+ .contact_form_table input {
+    width: 50%;
  }
+
+ ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #333;
+    font-size: 15px;
+    font-family: adobe_caslon_reg;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #333;
+    opacity: 1;
+    font-size: 15px;
+    font-family: adobe_caslon_reg;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #333;
+    opacity: 1;
+    font-size: 15px;
+    font-family: adobe_caslon_reg;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #333;
+    font-size: 15px;
+    font-family: adobe_caslon_reg;
+}
+
+ input[type="email"],
+ input[type="text"] {
+     font-family: adobe_caslon_reg;
+     font-size: 16px;
+ }
+
+ textarea[name="message"] {
+     font-family: adobe_calson_reg;
+     font-size: 16px;
+ }
+
+.submit-container,
+.submit-container tr,
+.submit-container td {
+    font-family: adobe_calson_reg;
+    font-size: 15px;
+    border: 1px solid #000;
+}
+
+.submit-container tr td:hover {
+    background-color: #000;
+}

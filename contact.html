@@ -24,7 +24,7 @@
             <li style="float:left;vertical-align:middle;"><a href="index.html"><img src="img/logo.png" alt="logo" style="height:100px;width:auto;"></a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="index.html">What We Do</a></li>
-            <li><a href="about.html">Recruitment</a></li>
+            <li><a href="recruitments.html">Recruitment</a></li>
         </ul>
     </nav>
 <!--todo: change custom.js to make the emails just links-->
@@ -38,20 +38,24 @@
         <p>
         </p>
         <form action="email_form.php" method="post" id="email_form">
-          <table id="contact_form_table">
-            <tr>
-              <td><label for="from">Your email:*</label></td>
-              <td><input type="email" name="from"></td>
-            </tr>
+          <table class="contact_form_table">
             <tr>
               <td><label for="sender">Your name:*</label></td>
               <td><input type="text" name="sender"></td>
             </tr>
             <tr>
-              <td colspan="2"><textarea name="message" rows="10" cols="50" placeholder="What would you like to tell us?"></textarea><br></td>
+              <td><label for="from">Your email:*</label></td>
+              <td><input type="email" name="from"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><textarea autocomplete="off" name="message" rows="10" cols="50" placeholder="What would you like to tell us?"></textarea><br></td>
             </tr>
           </table>
-          <input type="submit" name="send" value="send">
+          <table class="submit-container">
+              <tr>
+                  <td><input type="submit" name="send" value="send"></td>
+              </tr>
+          </table>
         </form>
         <br>
         <a class="email general"
