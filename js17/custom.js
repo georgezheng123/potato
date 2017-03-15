@@ -21,8 +21,8 @@ function showDepartmentPreviews(info) {
     var departmentPreviews = document.getElementsByClassName("department-previews")[0];
     var largerFirst = true;
     for (var dept in info) {
-        deptName= '<div id="headings" onclick="window.open("http://google.pl", "_blank");">' + formatName(dept) + '</div>' //some json stuff
-        line = '<div id = "line"></div>';
+        deptName= '<a href="' + info[dept].application + '" target="_blank"><div class="headings">' + formatName(dept) + '</div></a>' //some json stuff
+        line = '<div id="line"></div>';
         if (info[dept].quote != null) {
             deptQuote = '<blockquote>' + info[dept].quote + '</blockquote>' + '<div class="author">&mdash; ' + info[dept].person + '</div>'; // some json stuff
         } else {
