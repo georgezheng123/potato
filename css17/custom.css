@@ -85,6 +85,7 @@ table, th, td {
 .page-subtitle {
     font-family: adobe_calson_reg;
     font-weight: normal;
+    color: red;
 }
 
 .center-pic {
@@ -116,6 +117,12 @@ table, th, td {
 
 #back2Top:hover {
     cursor: pointer;
+}
+
+.app-link a,
+.app-link a:visited,
+.app-link a:active {
+    color: #0000EE;
 }
 
 /*----- INDEX.HTML -----*/
