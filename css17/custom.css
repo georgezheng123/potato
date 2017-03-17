@@ -345,7 +345,7 @@ blockquote::after {
 
  textarea[name="message"] {
      font-family: adobe_calson_reg;
-     font-size: 16px;
+     font-size: 15px;
  }
 
 .submit-container,
@@ -356,6 +356,28 @@ blockquote::after {
     border: 1px solid #000;
 }
 
+.submit-container {
+    margin: 0px 0px 0px 12px;
+}
+
+.submit-container tr td {
+    transition-duration: .3s
+}
+.submit-container tr td input[type="submit"] {
+    background: none;
+    border: none;
+    font-family: adobe_caslon_reg;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition-duration: .3s;
+    padding: 2px 4px;
+}
+
 .submit-container tr td:hover {
     background-color: #000;
+}
+
+.submit-container tr td:hover > input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
 }
