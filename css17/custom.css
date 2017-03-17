@@ -224,6 +224,7 @@ table, th, td {
     text-transform: uppercase;
     text-align: left;
     color: #000;
+    line-height: normal !important;
 }
 
 .headings:hover {
