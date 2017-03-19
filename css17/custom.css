@@ -122,6 +122,7 @@ table, th, td {
 .app-link a,
 .app-link a:visited,
 .app-link a:active {
+    text-decoration: none;
     color: #0000EE;
 }
 
@@ -222,6 +223,10 @@ table, th, td {
 
 .author {
     color: #666;
+}
+
+.larger a {
+    text-decoration: none;
 }
 
 .headings {
