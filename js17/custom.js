@@ -1,4 +1,4 @@
-var filename='https://georgezheng123.github.io/Spec_Recruit_S2017/data.json';
+var filename='https://stuyspec.github.io/recruitment-website/data.json';
 //var filename = "../data.json";
 var info;
 
